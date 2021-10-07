@@ -30,8 +30,7 @@ plt.rcParams['figure.figsize'] = (14,6)
 ### 2.1) Load the Data
 
 df = pd.read_csv('./_data/TG_STAID000186.csv', index_col=1, parse_dates=True)
-#df= pd.read_csv('./_data/TG_STAID019003.csv', index_col=1, parse_dates=True)
-#df = pd.read_csv('./_data/TG_STAID002759.csv', index_col=1, parse_dates=True)
+
 
 
 df.describe()
